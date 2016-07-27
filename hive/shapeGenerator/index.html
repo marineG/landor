@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HIVE-letter grid</title>
+	<style type="text/css">
+	canvas { border: 1px solid black; }
+	body{font-family: Arial;}
+	</style>
+</head>
+<body>
+<h1>Shape and Clipping mask Generator</h1>
+
+<canvas id="canvas" width="900" height="600" ></canvas>
+<form id="typeName">
+	<p><input id="name" type="text" name="fname"></p>
+	<p><button id="submitName">Submit</button></p>
+	<p>
+		<strong>Upload file:</strong> 
+		<input id="imageLoader" type="file" name="imageLoader" />
+	</p>
+</form>
+
+
+<!-- =================SCRIPTS======================== -->
+<script src="scripts/fabric.js"></script>
+<script src="scripts/hull.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
