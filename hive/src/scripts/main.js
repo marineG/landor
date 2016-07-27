@@ -254,11 +254,7 @@
     offsetY: 20
   });
   kaleidoscope2.kaleidoscopeInstance();
-  // var k2 = kaleidoscopeInstance( kaleidoscope2, this );
-  // window.addEventListener('mousemove', k2.onMouseMoved, false);
-  // kaleidoscope2.timerRef = window.setInterval(k2.onTime, kaleidoscope2.timer);
-  // console.log( "kaleidoscope2 = ", kaleidoscope2);
-  // console.log( "k2 = ", k2);
+ 
   // // ==================KALEIDOSCOPE3===============
   image3 = new Image;
   image3.src = 'img3.png';
